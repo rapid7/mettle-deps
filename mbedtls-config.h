@@ -30,6 +30,8 @@
 
 /* System support */
 #define MBEDTLS_HAVE_ASM
+#define MBEDTLS_PLATFORM_C
+#define MBEDTLS_PLATFORM_SNPRINTF_ALT
 #define MBEDTLS_HAVE_TIME
 
 /* mbed TLS feature support */
