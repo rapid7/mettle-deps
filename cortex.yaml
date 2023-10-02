@@ -1,0 +1,15 @@
+---
+info:
+  title: Mettle Deps
+  description: Dependencies for mettle
+  x-cortex-git:
+    github:
+      alias: r7org
+      repository: rapid7/mettle-deps
+  x-cortex-tag: mettle-deps
+  x-cortex-type: service
+  x-cortex-domain-parents:
+  - tag: metasploit
+openapi: 3.0.1
+servers:
+- url: "/"
