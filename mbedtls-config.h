@@ -79,6 +79,11 @@
 /* For testing with compat.sh */
 #define MBEDTLS_FS_IO
 
+/* For Windows */
+#ifdef _WIN32
+  #define MBEDTLS_PLATFORM_C
+#endif
+
 #include "mbedtls/check_config.h"
 
 #endif /* MBEDTLS_CONFIG_H */
